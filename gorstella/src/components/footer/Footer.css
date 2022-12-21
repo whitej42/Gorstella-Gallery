@@ -1,0 +1,44 @@
+.footer {
+    color: #fff;
+    background-color: #767475;
+}
+
+.flex-grid {
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+    padding: 40px;
+    border: red solid 2px;
+}
+
+.links-list {
+    margin: 0;
+    list-style: none;
+}
+
+.link-item {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.address {
+    margin: 0;
+    list-style: none;
+}
+
+.email {
+    color: #ee7303;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright span {
+    white-space: pre;
+}

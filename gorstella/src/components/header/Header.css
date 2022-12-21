@@ -1,0 +1,12 @@
+.header {
+  color: #727070;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  display: block;
+  text-align: center;
+}
+
+.logo {
+  width: 240px;
+  height: 80px;
+}
