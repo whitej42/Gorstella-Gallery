@@ -1,0 +1,22 @@
+.card-container {
+    padding: 0 20vw 10vh 20vw;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(71, 71, 71, 0.5);
+}
+
+.card img {
+    width: 350px;
+    height: 350px;
+}

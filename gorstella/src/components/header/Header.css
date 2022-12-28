@@ -1,12 +1,26 @@
 .header {
-  color: #727070;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   width: 100%;
-  padding: 30px 0 30px 0;
-  display: block;
+  background-color: #fff;
+  padding: 20px 40px 20px 40px;
   text-align: center;
+  color: #727070;
+  box-shadow: 0px 5px 5px 0px rgba(71,71,71,1);
 }
 
-.logo {
-  width: 240px;
-  height: 80px;
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inner {
+  display: flex;
+  position: relative;
+}
+
+.logo-img {
+  width: 200px;
+  height: 70px;
 }

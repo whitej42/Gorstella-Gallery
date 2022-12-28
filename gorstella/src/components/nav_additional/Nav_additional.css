@@ -1,0 +1,39 @@
+.nav-buttons {
+    position: absolute;
+    right: 0;
+  }
+  
+  .login-link {
+    color: #727070;
+    margin: 0 20px 0 20px;
+  }
+  
+  .btn-signup {
+    z-index: 1;
+    position: relative;
+    width: max-content;
+    text-decoration: none;
+    border: solid 1px #ee7303;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    color: #ee7303;
+  }
+  
+  .btn-signup::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background-color: rgb(238, 115, 3, 0.4);
+      transform: scaleX(0);
+      transition: transform 300ms ease-in;
+      transform-origin: right;
+  }
+  
+  .btn-signup:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }

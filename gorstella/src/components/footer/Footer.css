@@ -11,19 +11,12 @@
 .col {
     flex: 1;
     padding: 40px;
-    border: red solid 2px;
+    /* border: red solid 2px; */
 }
 
-.links-list {
-    margin: 0;
-    list-style: none;
-}
-
-.link-item {
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-    text-decoration: none;
+.copyright {
+    text-align: center;
+    white-space: pre;
 }
 
 .address {
@@ -33,12 +26,4 @@
 
 .email {
     color: #ee7303;
-}
-
-.copyright {
-    text-align: center;
-}
-
-.copyright span {
-    white-space: pre;
 }
