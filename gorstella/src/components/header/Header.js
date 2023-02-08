@@ -9,7 +9,7 @@ function Header() {
       <header>
         <div className='inner'>
           <div className='logo'>
-            <a><img className='logo-img' src={logo} alt='Gorstella Gallery'></img></a>
+            <a href='#'><img className='logo-img' src={logo} alt='Gorstella Gallery'></img></a>
           </div>
           <Nav_additional />
           <Topnav />
